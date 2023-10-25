@@ -1,0 +1,161 @@
+* {
+  color: hsl(243, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar img {
+  width: 70%;
+}
+
+.nav-list a:hover p {
+  color: hsla(243, 87%, 12%, 0.5);
+}
+
+.fylo-h {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.fylo-form .input-size {
+  height: 55px;
+  border: 1px solid black;
+}
+.fylo-form .input-size::-moz-placeholder {
+  opacity: 0.2;
+  font-family: "Raleway", sans-serif;
+}
+.fylo-form .input-size::placeholder {
+  opacity: 0.2;
+  font-family: "Raleway", sans-serif;
+}
+.fylo-form button {
+  height: 55px;
+  font-size: medium;
+  font-family: "Raleway", sans-serif;
+}
+
+.card .testimonial {
+  font-size: 0.93em;
+  line-height: 1.7;
+}
+.card h5 {
+  font-size: small;
+}
+.card .tiny {
+  font-size: xx-small;
+}
+
+.bgimg {
+  background-color: hsla(240, 75%, 98%, 0.8);
+}
+
+.second .img1 {
+  display: block;
+  width: 100%;
+}
+.second .img2 {
+  display: none;
+}
+.second .text-h {
+  font-size: 1.3rem;
+}
+.second .text-p {
+  font-size: 1.2rem;
+}
+
+.pre-footer {
+  background-color: hsl(239, 22%, 44%);
+}
+.pre-footer h2 {
+  font-family: "Raleway", sans-serif;
+}
+.pre-footer p {
+  font-size: 1.2rem;
+}
+.pre-footer form input {
+  height: 45px;
+  border: 1px solid black;
+}
+.pre-footer form input::-moz-placeholder {
+  opacity: 0.2;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+}
+.pre-footer form input::placeholder {
+  opacity: 0.2;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+}
+.pre-footer form button {
+  height: 45px;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+}
+.footer .topfooter img {
+  filter: brightness(0) invert(1);
+}
+.footer .bottomfooter {
+  font-size: 1.4em;
+}
+.footer .socials a {
+  width: 40px;
+  height: 40px;
+}
+
+/* If the screen size is larger than 768 */
+@media (min-width: 768px) {
+  h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+  }
+  .nav-bar img {
+    width: 100%;
+  }
+  .second .img1 {
+    display: none;
+  }
+  .second .img2 {
+    display: block;
+  }
+  .second .text-h {
+    font-size: 2.5rem;
+  }
+  .second .text-p {
+    font-size: 1.05rem;
+  }
+  .pre-footer p {
+    font-size: medium;
+  }
+  .pre-footer form input {
+    height: 50px;
+  }
+  .pre-footer form button {
+    height: 50px;
+  }
+  .footer {
+    background-color: hsl(243, 87%, 12%);
+  }
+  .footer .topfooter img {
+    width: 180px;
+    filter: brightness(0) invert(1);
+  }
+  .footer .socials a {
+    width: 30px;
+    height: 30px;
+  }
+  .footer .socials a img {
+    width: 50%;
+  }
+  .footer .bottomfooter {
+    font-size: 1em;
+  }
+  .footer .bottomfooter .info img {
+    width: 20px;
+  }
+  .footer .bottomfooter .info .phone img {
+    height: 18px;
+  }
+}/*# sourceMappingURL=fyloLandingPage.css.map */

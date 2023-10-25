@@ -1,0 +1,188 @@
+*{
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar{
+    img{
+        width: 70%;
+    }
+}
+
+.nav-list{
+    a:hover{
+        p{
+            color: hsl(243, 87%, 12%, 50%);
+        }
+    }
+}
+
+.fylo-h{
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.fylo-form{
+    .input-size{
+        height: 55px;
+        border: 1px solid black;
+    }
+    .input-size::placeholder{
+        opacity: 0.2;
+        font-family: 'Raleway', sans-serif;
+    }
+    button{
+        height: 55px;
+        font-size: medium;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+.card{
+    .testimonial{
+        font-size: 0.93em;
+        line-height: 1.7;
+    }
+    h5{
+        font-size: small;
+    }
+    .tiny{
+        font-size: xx-small;
+    }
+}
+
+.bgimg{
+    background-color: hsl(240, 75%, 98%, 80%);
+}
+
+.second{
+    .img1{
+        display: block;
+        width: 100%;
+    }
+    .img2{
+        display: none;
+    }
+    .text-h{
+        font-size: 1.3rem;
+    }
+    .text-p{
+        font-size: 1.2rem;
+    }
+}
+
+.pre-footer{
+    background-color: hsl(239, 22%, 44%);
+    h2{
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    form{
+        input{
+            height: 45px;
+            border: 1px solid black;
+        }
+        input::placeholder{
+            opacity: 0.2;
+            font-size: small;
+            font-family: 'Raleway', sans-serif;
+        }
+        button{
+            height: 45px;
+            font-size: small;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+}
+
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    .topfooter{
+        img{
+            filter: brightness(0) invert(1);
+        }
+    }
+    .bottomfooter{
+        font-size: 1.4em;
+    }
+    .socials{
+        a{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+  /* If the screen size is larger than 768 */
+@media (min-width: 768px) {
+    h1, h2, h3, h4, h5{
+        font-family: 'Raleway', sans-serif;
+    }
+    .nav-bar{
+        img{
+            width: 100%;
+        }
+    }
+    .second{
+        .img1{
+            display: none;
+        }
+        .img2{
+            display: block;
+        }
+        .text-h{
+            font-size: 2.5rem;
+        }
+        .text-p{
+            font-size: 1.05rem;
+        }
+    }
+    .pre-footer{
+        p{
+            font-size: medium;
+        }
+        form{
+            input{
+                height: 50px;
+            }
+            button{
+                height: 50px;
+            }
+        }
+    }
+    .footer{
+        background-color: hsl(243, 87%, 12%);
+        .topfooter{
+            img{
+                width: 180px;
+                filter: brightness(0) invert(1);
+            }
+        }
+        .socials{
+            a{
+                width: 30px;
+                height: 30px;
+                img{
+                    width: 50%;
+                }
+            }
+        }
+
+        .bottomfooter{
+            font-size: 1em;
+            .info{
+                img{
+                    width: 20px;
+                }
+                .phone{
+                    img{
+                        height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
